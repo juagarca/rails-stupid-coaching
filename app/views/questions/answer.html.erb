@@ -1,7 +1,15 @@
-<p>
-  <%= @question == '' ? 'No question?' : @question %>
-</p>
+<div class="question">
+  <p>
+  <strong><%= @question == '' ? 'No question?' : @question %></strong>
+  </p>
+<p><em>-You</em></p>
+</div>
+<div class="answer">
+  <p><strong><%= @answer %></strong>
+  <p><em>-Your coach</em></p>
+</div>
 
-<p><strong><%= @answer %></strong> <br> <br>
 
-<%= link_to 'Go back', ask_path %>
+<div class="link">
+  <%= link_to 'Ask a new question', ask_path %>
+</div>

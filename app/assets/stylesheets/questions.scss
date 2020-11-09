@@ -1,3 +1,27 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+ $yellow: #FFFFE4;
+ $gray: #DDDDDD;
+ $blue: #749ED3;
+
+ .answer {
+  background: $yellow;
+  border-left: 5px solid $gray;
+  margin: 10px 5px;
+  padding: 1px 0 1px 6px;
+  width: 500px;
+ }
+
+ .question {
+  border-left: 5px solid $gray;
+  margin: 10px 5px;
+  padding: 1px 0 1px 6px;
+  width: 500px;
+ }
+
+ .link a {
+  text-decoration: none;
+  color: $blue;
+ }
